@@ -1,5 +1,5 @@
-
 name: Github Actions Example
+
 on: 
   pull_request:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     name: Running Units Test
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     
     steps:
       - uses: actions/checkout@v1
